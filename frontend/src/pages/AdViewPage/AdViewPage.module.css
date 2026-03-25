@@ -1,0 +1,153 @@
+.page {
+  max-width: 1335px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.backBtn {
+  margin-bottom: 16px;
+}
+
+.card {
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.category {
+  font-size: 12px;
+  color: #707176;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text-color);
+}
+
+.date {
+  font-size: 13px;
+  color: #707176;
+}
+
+.price {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-color);
+  white-space: nowrap;
+}
+
+.image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.imagePlaceholder {
+  max-width: 480px;
+  height: 360px;
+  background: #f0f0f0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  flex: 1 0 auto;
+}
+
+.imagePlaceholderIcon {
+  font-size: 80px;
+  color: #bbb;
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 12px;
+  color: var(--text-color);
+}
+
+.params {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 2px;
+}
+
+.param {
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+  justify-content: space-between;
+}
+
+.paramLabel {
+  font-size: 14px;
+  color: #7b7b7b;
+  font-weight: 500;
+}
+.dates{
+  display: flex;
+  flex-direction: column;
+  gap:2px;
+}
+.paramValue {
+  font-size: 14px;
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+.description {
+  font-size: 14px;
+  color: var(--text-color);
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contentRight {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}

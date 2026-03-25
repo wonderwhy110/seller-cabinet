@@ -1,0 +1,107 @@
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.backBtn {
+  margin-bottom: 16px;
+}
+
+.card {
+  background: var(--white);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0 0 24px;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #f0f0f0;
+  margin: 16px 0;
+}
+
+.aiBlock {
+  background: #f0f9ff;
+  border: 1px solid #91d5ff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.aiTitle {
+  font-size: 13px;
+  font-weight: 600;
+  color: #007ab8;
+  margin: 0 0 10px;
+}
+
+.aiButtons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.aiResult {
+  margin-top: 12px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.aiResultText {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin: 0 0 8px;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-start;
+  margin-top: 24px;
+}
+
+.charCount {
+  font-size: 12px;
+  color: #707176;
+}
+.subtitle{
+  font-size: 20px;
+  font-weight: 500;
+}
+.priceWrapper{
+  display:flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.butonAi{
+  margin-top: 30px;
+  background-color: #F9F1E6;
+  color: #FFA940;
+  border: none;
+
+}
+.butonAi:hover{
+   background-color: #fee7c5 !important;
+     color: #dc8d2c !important;
+}
+.butonAiSecond{
+ 
+  background-color: #F9F1E6;
+  color: #FFA940;
+  border: none;
+
+}
+.butonAiSecond:hover{
+   background-color: #fee7c5 !important;
+     color: #dc8d2c !important;
+}

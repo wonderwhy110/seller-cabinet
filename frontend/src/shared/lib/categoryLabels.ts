@@ -1,4 +1,5 @@
-import { Category } from '@shared/types'
+import type { Category } from "@shared/types"
+
 
 export const CATEGORY_LABELS: Record<Category, string> = {
   auto: 'Транспорт',
