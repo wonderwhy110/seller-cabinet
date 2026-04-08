@@ -36,21 +36,7 @@ export const AdsListPage = () => {
         },
         signal,
       ),
-    select: (data) => {
-      if (data && data.items) {
-        // Добавляем глобальный индекс (0-based) каждому элементу
-        const itemsWithIndex = data.items.map((item, index) => {
-          const globalIndex = (page - 1) * PAGE_SIZE + index;
-          return {
-            ...item,
-            globalIndex,      // 0-based глобальный индекс
-            tempId: globalIndex + 1, // 1-based для отображения
-          };
-        });
-        return { ...data, items: itemsWithIndex };
-      }
-      return data;
-    }
+    
   })
 
   return (
