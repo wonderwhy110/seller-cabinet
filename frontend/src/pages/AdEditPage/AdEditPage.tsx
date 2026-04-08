@@ -2,12 +2,12 @@ import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
 import { Form, Input, InputNumber, Select, Button, Spin, Alert, message, Popover } from 'antd'
-import { ArrowLeftOutlined, CloseOutlined, BulbOutlined } from '@ant-design/icons'
+import { ArrowLeftOutlined, SaveOutlined, CloseOutlined, BulbOutlined } from '@ant-design/icons'
 import { itemApi } from '@entities/item'
 import { CategoryFields } from '@features/edit-form'
 import { CATEGORY_OPTIONS } from '@shared/lib'
 import type { Category, ItemUpdateIn } from '@shared/types'
-import { geminiGenerate as generate } from '@shared/api'
+import { groqGenerate as generate } from '@shared/api'
 import styles from './AdEditPage.module.css'
 
 const DRAFT_KEY = (id: string) => `draft_${id}`
@@ -22,7 +22,7 @@ export const AdEditPage = () => {
   const [currentCategory, setCurrentCategory] = useState<Category>('electronics')
   const [charCount, setCharCount] = useState(0)
 
-
+  // AI состояния
   const [aiDescription, setAiDescription] = useState<string | null>(null)
   const [aiPrice, setAiPrice] = useState<string | null>(null)
   const [aiDescLoading, setAiDescLoading] = useState(false)

@@ -1,2 +1,2 @@
 export { apiInstance } from './axiosInstance'
-export { geminiGenerate } from './geminiApi'
+export { groqGenerate } from './groqApi'
